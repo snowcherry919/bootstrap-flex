@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		.box{
+			
+			height: 70px;
+			border:1px solid #000;
+			background-color: pink;
+
+		}
+		.box2{
+			
+			height: 70px;
+			border:1px solid #000;
+			background-color: #fa0;
+
+		}
+		.box3{
+			
+			height: 70px;
+			border:1px solid #000;
+			background-color: lightgreen;
+
+		}
+		.box4{
+			
+			height: 70px;
+			border:1px solid #000;
+			background-color: lightblue;
+
+		}
+		.demo{
+			border:2px dotted red;
+			padding:10px;
+		}
+		.demo2{
+			border:2px dotted blue;
+			padding:10px;
+		}
+		.demo3{
+			border:2px dotted green;
+			padding:10px;
+		}
+	</style>
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+ <div class="container mb-5 " ><!-- mb-5代表margin-bottom:5px -->
+  <!-- flex-row -->
+  	<div class="display-4 ">flex-row</div>
+    	<div class="row demo2 mt-2">
+			<div class="col-3">
+				<div class="box pl-5">1</div>
+				<!-- pl-5 代表padding-left:5px-->
+			</div>
+			<div class="col-3">
+				<div class="box2">2</div>
+			</div>
+			<div class="col-3">
+				<div class="box3">3</div>
+			</div>
+			<div class="col-3">
+				<div class="box4">4</div>
+			</div>
+		</div>
+  	
+<!-- flex-row-reverse -->
+  	<div class="display-4">flex-row-reverse</div>
+	
+		<div class="row flex-row-reverse  demo2 mt-2">
+			<div class="col-3">
+				<div class="box">1</div>
+			</div>
+			<div class="col-3">
+				<div class="box2">2</div>
+			</div>
+			<div class="col-3">
+				<div class="box3">3</div>
+			</div>
+			<div class="col-3">
+				<div class="box4">4</div>
+			</div>
+		</div>
+	
+<!-- flex-column -->
+  	<div class="display-4">flex-column</div>
+ 
+  		<div class="row flex-column demo mt-2" >
+  			<div class="col-3">
+  				<div class="box">1</div>
+  			</div>
+  			<div class="col-3">
+  				<div class="box2">2</div>
+  			</div>
+  		</div>
+  	
+ 
+<!-- flex-column-reverse -->
+ 	<div class="display-4">flex-column-reverse</div>
+ 	
+ 		<div class="row flex-column-reverse demo mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			
+ 		</div>
+ 	
+<!-- justify-content -->
+	<div class="display-4">justify-content-start</div>
+ 	
+ 		<div class="row justify-content-start demo2 mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 			
+ 			
+ 		</div>
+ 	
+
+ 	<div class="display-4">justify-content-end</div>
+ 	
+ 		<div class="row justify-content-end demo2 mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 		</div>
+ 
+
+ 	<div class="display-4">justify-content-center</div>
+ 	
+ 		<div class="row justify-content-center demo2 mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 			
+ 		</div>
+ 	
+
+ 		<div class="display-4">justify-content-around</div>
+ 
+ 		<div class="row justify-content-around demo3 mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 			
+ 		</div>
+ 
+
+ 		<div class="display-4">justify-content-between</div>
+
+ 		<div class="row justify-content-between demo3 mt-2">
+ 			<div class="col-3">
+ 				<div class="box">1</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 			
+ 		</div>
+<!-- align 群體 -->
+ 		<div class="display-4">align-items-center</div>
+		<div class="row flex-column align-items-center demo mt-2">
+			<div class="col-3">
+				<div class="box">1</div>
+			</div>
+			<div class="col-3">
+				<div class="box2">2</div>
+			</div>
+			<div class="col-3">
+				<div class="box3">3</div>
+			</div>
+		</div>
+
+		<div class="display-4">align-items-start</div>
+		<div class="row flex-column align-items-start demo mt-2">
+			<div class="col-3">
+				<div class="box">1</div>
+			</div>
+			<div class="col-3">
+				<div class="box2">2</div>
+			</div>
+			<div class="col-3">
+				<div class="box3">3</div>
+			</div>
+		</div>
+
+		<div class="display-4">align-items-end</div>
+		<div class="row flex-column align-items-end demo mt-2">
+			<div class="col-3">
+				<div class="box">1</div>
+			</div>
+			<div class="col-3">
+				<div class="box2">2</div>
+			</div>
+			<div class="col-3">
+				<div class="box3">3</div>
+			</div>
+		</div>
+		
+<!-- align-self 子元素 -->
+		<div class="display-4">align-items-start->align-self</div>
+		<div class="row flex-column align-items-start demo2 mt-2">
+			<div class="col-3 align-self-start">
+				<div class="box">align-self-start</div>
+			</div>
+			<div class="col-3 align-self-center ">
+				<div class="box2">align-self-center</div>
+			</div>
+			<div class="col-3 align-self-end">
+				<div class="box3">align-self-end</div>
+			</div>
+		</div>
+<!-- order -->
+ 		<div class="display-4">order-</div>
+ 		<div class="row demo2 mt-2">
+ 			<div class="col-3 order-4">
+ 				<div class="box ">1</div>
+ 			</div>
+ 			<div class="col-3 order-2">
+ 				<div class="box2">2</div>
+ 			</div>
+ 			<div class="col-3 order-3">
+ 				<div class="box3">3</div>
+ 			</div>
+ 			<div class="col-3 order-1">
+ 				<div class="box4">4</div>
+ 			</div>
+ 		</div>
+		
+
+
+</div>
+	<div class="container">
+<!-- flex&column -->
+		<div class="display-4">flex&column</div>
+		<div class="demo mt-3">
+	<!-- flex-row -->
+			<div class="d-flex flex-row">
+				<div class="p-2 bg-info text-white border">flex-row 1</div>
+				<div class="p-2 bg-info text-white border">flex-row 2</div>
+				<div class="p-2 bg-info text-white border">flex-row 3</div>
+			</div>
+	<!-- flex-row-reverse -->
+			<div class="d-flex flex-row-reverse">
+				<div class="p-2 bg-info text-white border">flex-row-reverse 1</div>
+				<div class="p-2 bg-info text-white border">flex-row-reverse 2</div>
+				<div class="p-2 bg-info text-white border">flex-row-reverse 3</div>
+			</div>
+	<!-- flex-column -->
+			<div class="d-flex flex-column">
+				<div class="p-2 bg-info text-white border">flex-column 1</div>
+				<div class="p-2 bg-info text-white border">flex-column 2</div>
+				<div class="p-2 bg-info text-white border">flex-column 3</div>
+			</div>
+	<!-- flex-column-reverse -->
+			<div class="d-flex flex-column-reverse">
+				<div class="p-2 bg-warning text-dark border">flex-column-reverse 1</div>
+				<div class="p-2 bg-warning text-dark border">flex-column-reverse 2</div>
+				<div class="p-2 bg-warning text-dark border">flex-column-reverse 3</div>
+			</div>
+
+		</div>
+
+<!-- justify-content -->
+		<div class="display-4">justify-content</div>
+		<div class="col-md-12 demo3 mt-3 ">
+	<!-- justify-content-start -->
+			<div class="d-flex my-2 bg-light justify-content-start">
+				<div class="p-2 bg-danger text-white border">justify-content-start1</div>
+				<div class="p-2 bg-danger text-white border">justify-content-start2</div>
+				<div class="p-2 bg-danger text-white border">justify-content-start3</div>
+			</div>
+	<!-- justify-content-end -->
+			<div class="d-flex my-2 bg-light justify-content-end">
+				<div class="p-2 bg-danger text-white border">justify-content-end1</div>
+				<div class="p-2 bg-danger text-white border">justify-content-end2</div>
+				<div class="p-2 bg-danger text-white border">justify-content-end3</div>
+			</div>
+	<!-- justify-content-center -->
+			<div class="d-flex my-2 bg-light justify-content-center">
+				<div class="p-2 bg-danger text-white border">justify-content-center 1</div>
+				<div class="p-2 bg-danger text-white border">justify-content-center 2</div>
+				<div class="p-2 bg-danger text-white border">justify-content-center 3</div>
+			</div>
+			<div class="d-flex my-2 bg-light justify-content-between">
+				<div class="p-2 bg-danger text-white border">justify-content-between</div>
+				<div class="p-2 bg-danger text-white border">justify-content-between</div>
+				<div class="p-2 bg-danger text-white border">justify-content-between</div>
+			</div>
+	<!-- justify-content-around -->
+			<div class="d-flex my-2 bg-light justify-content-around">
+				<div class="p-2 bg-danger text-white border">justify-content-around</div>
+				<div class="p-2 bg-danger text-white border">justify-content-around</div>
+				<div class="p-2 bg-danger text-white border">justify-content-around</div>
+			</div>
+		</div>
+
+<!-- align-items -->
+		<div class="display-4">align-items</div>
+		<div class="col-md-12 demo2 mt-3">
+	<!-- align-items-start -->
+			<div class="d-flex my-2  align-items-start" style="height:100px;background: #eee"> 
+				<!-- d-flex:flex的意思，bg-light:背景顏色  -->
+				<div class="p-2 bg-success text-white border">align-items-start</div>
+				<!-- p-2:padding:2px ，bg-success:背景顏色 ，text-white:文字顏色 border外框線-->
+				<div class="p-2 bg-success text-white border">align-items-start</div>
+				<div class="p-2 bg-success text-white border">align-items-start</div>
+			</div>
+	<!-- align-items-end -->
+			<div class="d-flex my-2  align-items-end" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-end</div>
+				<div class="p-2 bg-success text-white border">align-items-end</div>
+				<div class="p-2 bg-success text-white border">align-items-end</div>			
+			</div>
+	<!-- align-items-center -->
+			<div class="d-flex my-2 align-items-center" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-center</div>
+				<div class="p-2 bg-success text-white border">align-items-center</div>
+				<div class="p-2 bg-success text-white border">align-items-center</div>			
+			</div>
+	<!-- align-items-baseline -->
+			<div class="d-flex my-2  align-items-baseline" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-baseline</div>
+				<div class="p-2 bg-success text-white border">align-items-baseline</div>
+				<div class="p-2 bg-success text-white border">align-items-baseline</div>			
+			</div>
+	<!-- align-items-stretch		 -->
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>			
+			</div>
+
+	
+		</div>
+
+		<!-- align-self		 -->
+		<div class="display-4">align-self</div>
+		<div class="col-md-12 demo2 mt-3">
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border align-self-start">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>	
+			</div>
+
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border align-self-cneter">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>	
+			</div>
+
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border align-self-end">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>	
+			</div>
+
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border align-self-baseline">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>	
+			</div>
+
+			<div class="d-flex my-2 bg-light align-items-stretch" style="height:100px;background: #eee">
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border align-self-stretch">align-items-stretch</div>
+				<div class="p-2 bg-success text-white border">align-items-stretch</div>	
+			</div>
+		</div>
+
+	<!-- ml-auto -->
+	<div class="container demo mt-5 mb-5">
+		<!-- ml-auto -->
+			<div class="display-4">ml-auto (margin-left)往左推</div>
+			<div class="d-flex my-2 bg-light justify-content-end ">
+				<div class="p-2 bg-info text-white border">Lorem ipsum dolor sit amet.</div>
+				<div class="p-2 bg-info text-white border ml-auto">Lorem ipsum dolor sit amet.</div>
+				<div class="p-2 bg-info text-white border">Lorem ipsum dolor sit amet.</div>
+			</div>
+		<!-- mr-auto		 -->
+			<div class="display-4">mr-auto (margin-right) 往右推</div>
+			<div class="d-flex my-2 bg-light justify-content-end">
+				<div class="p-2 bg-info text-white border">Lorem ipsum dolor sit amet.</div>
+				<div class="p-2 bg-info text-white border mr-auto">Lorem ipsum dolor sit amet.</div>
+				<div class="p-2 bg-info text-white border">Lorem ipsum dolor sit amet.</div>
+			</div>
+	
+	
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
